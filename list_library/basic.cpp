@@ -18,6 +18,8 @@ int main(){
     l.pop_back();
     l.pop_front();
 
+    // It is not possible to access list randomly because it is based on Linked List
+    // cout << l[2] << endl;
     for(int i : l){
         cout << i << " ";
     }
